@@ -1,24 +1,38 @@
-.float{
-	position:fixed;
+.float {
+    position: fixed;
     width: 40px;
     height: 40px;
     bottom: 70px;
     right: 16px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
     font-size: 25px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
 }
 
-.my-float{
-	margin-top: 8px;
+.my-float {
+    margin-top: 8px;
     margin-left: 2px;
 }
 
-.my-float:hover{
+.my-float:hover {
     color: rgb(28, 28, 28);
 
+}
+
+/* md */
+@media (min-width: 992px) {
+    .subtitle {
+        width: 70%;
+    }
+}
+
+/* lg */
+@media (min-width: 1200px) {
+    .subtitle {
+        width: 70%;
+    }
 }
